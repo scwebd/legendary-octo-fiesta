@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace, "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333;
+    background: url("../assets/images/sky.jfif"); }
+
+.header {background:white;
+        color: white;
+        width: 100%;}
+
+.container {background: white;
+        color: teal; width: 900px;
+        margin: 0 0 0 100px;
+        outline: 5px darkgrey;
+
+        font-size: 10pt;}
+
+.text   {margin: 40px;
+        color: teal;
+        background: white;}
+
+#image {float: left;
+        margin: 20px;}
+
+
+
+.name {color: white;
+    background:teal;
+    position: relative;
+    width: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;}
+
+
+
+.box {position: relative;
+    height: 200px;
+    width: 200px;
+    background: teal;
+    margin: 10px;
+    }
+.bar {position: absolute;
+    height: 30px;
+    width: 150px;
+    background: darkgray;
+    top: 90px;}
+
+ul#menu li {display: inline;}
+
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    background: white;}
+
+li {float: right;
+margin: 10px;}
+
+li a {display: inline-block;
+    color: teal;
+    text-align: center;
+    text-decoration: none;}
+
+footer {position: fixed;
+left: 0;
+bottom: 0;
+padding-top: 30px;
+font-size: x-small;
+width: 100%;
+background: #66666666;
+color: #ffffffff;
+border-top: 8px solid #4aaaa5;
+text-align: center;
+}
+    
+    
+    
+
